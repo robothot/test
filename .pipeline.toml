@@ -1,0 +1,8 @@
+[build]
+command = "npm install && npm run build"
+output_directory = "dist"
+
+[publish.git]
+name = "robothot"
+branch = "test-b"
+repository = "https://github.com/robothot/test.git"
