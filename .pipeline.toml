@@ -2,7 +2,9 @@
 command = "npm install && npm run build"
 output_directory = "dist"
 
-[publish.git]
-name = "robothot"
+[publish]
+
+[publish.git.test]
 branch = "test-b"
 repository = "https://github.com/robothot/test.git"
+
